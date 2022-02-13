@@ -4,7 +4,7 @@ const config = {
   theme: {
     extend: {
       backgroundImage: {
-        'cust-background': "url('../img/5.png')",
+        'cust-background': "url('../img/487.png')",
       }
     },
   },
