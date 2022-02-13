@@ -21,7 +21,7 @@
   const HEADER_TITLE = "Team Weifus";
   const HEADER_LINK = "";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "/example.gif";
+  const IMAGE_LINK = "/";
   const BACKGROUND_LINK = "/img/5.png"
   /***********************************/
 
