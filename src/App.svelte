@@ -16,13 +16,12 @@
 
   /***********************************/
   // Customise the app by changing the following variables.
-  const TITLE = "Team Weifus";
+  const TITLE = "Team Waifus ";
   const DESCRTIPTION = "";
-  const HEADER_TITLE = "Team Weifus";
+  const HEADER_TITLE = "Team Waifus";
   const HEADER_LINK = "";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "/";
-  const BACKGROUND_LINK = "/img/5.png"
+  const IMAGE_LINK = "/img/example.gif";
   /***********************************/
 
   const { solana } = window as any;
