@@ -16,12 +16,13 @@
 
   /***********************************/
   // Customise the app by changing the following variables.
-  const TITLE = "Shapes";
-  const DESCRTIPTION = "A collection of shapes on the blockchain";
-  const HEADER_TITLE = "shapes.xyz";
-  const HEADER_LINK = "https://lanablocks.xyz";
+  const TITLE = "Team Weifus";
+  const DESCRTIPTION = "";
+  const HEADER_TITLE = "Team Weifus";
+  const HEADER_LINK = "";
   // Your image or GIF needs to be in the /public folder for this to work
   const IMAGE_LINK = "/example.gif";
+  const BACKGROUND_LINK = "/img/5.png"
   /***********************************/
 
   const { solana } = window as any;
@@ -70,6 +71,7 @@
 
 <main class="h-screen">
   <!-- Loading Section -->
+  <div class="h-screen bg-cover bg-cust-background">
   {#if siteLoading}
     <div class=" h-full flex">
       <div class="lds-hourglass m-auto" />
@@ -121,4 +123,5 @@
       </div>
     </div>
   {/if}
+</div>
 </main>
